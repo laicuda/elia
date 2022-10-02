@@ -126,7 +126,7 @@ Together with the ebook licenses, installation instructions and terms of usage c
 ## Sending licenses
 
 Actually sending the e-mails with license keys is done by the script [`../src/05_send_licenses.py`](../src/05_send_licenses.py). It uses 
-- order data enriched with payment information ((`ORDER_DATA_JSON`) in [`../src/ebook_config.py`](../src/ebook_config.py))
+- order data enriched with payment information (`ORDER_DATA_JSON` in [`../src/ebook_config.py`](../src/ebook_config.py))
 - license keys as provided in `EBOOK_LICENSES_JSON` in [`../src/ebook_config.py`](../src/ebook_config.py), and
 - installation instructions as provided in `INSTALLATION_INSTRUCTIONS` in [`../src/ebook_config.py`](../src/ebook_config.py)
 as well as 

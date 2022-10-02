@@ -2,9 +2,9 @@
 
 ## Analyse payments
 
-After payments have been received, you need to provide a CSV file with payment information. Our bank provides the possiblity to export transfer data as CSV file and I use the format of this CSV file here. The filename again is provided as Variable: `PAYMENT_DATA_CSV` in (`../src/ebook_config.py`)[../src/ebook_config.py]
+After payments have been received, you need to provide a CSV file with payment information. Our bank provides the possiblity to export transfer data as CSV file and I use the format of this CSV file here. The filename again is provided as Variable: `PAYMENT_DATA_CSV` in [`../src/ebook_config.py`](../src/ebook_config.py).
 
-*Example data* ((../data/payment-data_22-23_8.csv)[../data/payment-data_22-23_8.csv]):
+*Example data* ([../data/payment-data_22-23_8.csv](../data/payment-data_22-23_8.csv)):
 
 ```
 "Auftragskonto";"Buchungstag";"Valutadatum";"Buchungstext";"Verwendungszweck";"Glaeubiger ID";"Mandatsreferenz";"Kundenreferenz (End-to-End)";"Sammlerreferenz";"Lastschrift Ursprungsbetrag";"Auslagenersatz Ruecklastschrift";"Beguenstigter/Zahlungspflichtiger";"Kontonummer/IBAN";"BIC (SWIFT-Code)";"Betrag";"Waehrung";"Info"
@@ -13,7 +13,7 @@ After payments have been received, you need to provide a CSV file with payment i
 "DE12345678901234567890";"31.08.22";"01.09.22";"ENTGELTABSCHLUSS";"Entgeltabrechnung siehe Anlage ";;;;;;;;"0000000000";"XXXXXXXXXX";"-0,80";"EUR";"Umsatz gebucht"
 ```
 
-The script which reads the file with payment information files and updates the order data is (`../src/02_check_payment_data.py`)[../src/02_check_payment_data.py]. As not all parents use solely the purpose of use that was sent to them, some minor assumptions are made: Everything is compared using upper case and information, that seems to be important, is thrown away.
+The script which reads the file with payment information files and updates the order data is [`../src/02_check_payment_data.py`](../src/02_check_payment_data.py). As not all parents use solely the purpose of use that was sent to them, some minor assumptions are made: Everything is compared using upper case and information, that seems to be important, is thrown away.
 
 In our example, two payments were received, so that the updated order file (which overwrites `ORDER_DATA_JSON`) contains the following information now:
 
@@ -63,15 +63,15 @@ Of course, you can edit this file manually, after having run the script.
 
 ## Count ordered and paid licenses
 
-Now, based on the updated order data (`ORDER_DATA_JSON` in (`../src/ebook_config.py`)[../src/ebook_config.py]) and the list of available books (`AVAILABLE_EBOOK_LIST_TXT` in [`../src/ebook_config.py`](../src/ebook_config.py) are used to count both
+Now, based on the updated order data (`ORDER_DATA_JSON` in [`../src/ebook_config.py`](../src/ebook_config.py)) and the list of available books (`AVAILABLE_EBOOK_LIST_TXT` in [`../src/ebook_config.py`](../src/ebook_config.py) are used to count both
 - the number of ordered instances of each book, and
 - the number of ordered and paid instances of each book.
 
-The results are written to a CSV-file again (`PAID_AND_ORDERED_EBOOKS_CSV` in (`../src/ebook_config.py`)[../src/ebook_config.py]), which can be used as basis for ordering.
+The results are written to a CSV-file again (`PAID_AND_ORDERED_EBOOKS_CSV` in [`../src/ebook_config.py`](../src/ebook_config.py)), which can be used as basis for ordering.
 
-The script which reads input files and writes the output file is (`../src/03_count_paid_licenses.py`)[../src/03_count_paid_licenses.py].
+The script which reads input files and writes the output file is [`../src/03_count_paid_licenses.py`](../src/03_count_paid_licenses.py).
 
-*Example for resulting file* (`../data/number-of-paid-licenses_22-23_8.csv`)[../data/number-of-paid-licenses_22-23_8.csv]:
+*Example for resulting file* [`../data/number-of-paid-licenses_22-23_8.csv`](../data/number-of-paid-licenses_22-23_8.csv):
 
 ```
 ID;Buchbezeichnung;Preis;Verlag;bezahlterPreis;Anzahl (bestellt);Anzahl (bezahlt)

@@ -40,7 +40,7 @@ Viele Grüße,
 Vorname Nachname
 ```
 
-Besides sending e-mails (`../src/01_send_transfer_data.py`)[../src/01_send_transfer_data.py] saves the order data as JSON data in a file (`ORDER_DATA_JSON` in (`../src/ebook_config.py`)[../src/ebook_config.py]) and the following scripts will update the information saved there. For the example, the JSON file initially contains the following data:
+Besides sending e-mails [`../src/01_send_transfer_data.py`](../src/01_send_transfer_data.py) saves the order data as JSON data in a file (`ORDER_DATA_JSON` in [`../src/ebook_config.py`](../src/ebook_config.py)) and the following scripts will update the information saved there. For the example, the JSON file initially contains the following data:
 
 ```
 {
