@@ -12,11 +12,12 @@ Python script that can help the school to manage the whole process in a semi-aut
 
 As I support a German school, this project is a mixture of German and English - sorry about that!
 
-Our process is as follows:
-1. [doc/A_provide_available_books.md](School provides information on available ebooks)
-2. [doc/B_parents_poll.md](Parents answer a poll and thereby order ebook licenses)
-3. [doc/C_send_transfer_data.md](Parents get an e-mail with payment information)
+Our process is as follows - details on the steps can be found in the linked markdown files:
+
+1. [School provides information on available ebooks](doc/A_provide_available_books.md)
+2. [Parents answer a poll and thereby order ebook licenses](doc/B_parents_poll.md)
+3. [Parents get an e-mail with payment information](doc/C_send_transfer_data.md)
 4. Parents transfer money for the ebook licenses they ordered
-5. [doc/D_analyse_payments.md](Number of ordered and paid licenses is counted)
+5. [Number of ordered and paid licenses is counted](doc/D_analyse_payments.md)
 6. School orders ebook licenses from publishers
-7. [doc/E_send_licenses.md](Parents get one or several e-mails containing ebook licenses and installation instructions from publishers)
+7. [Parents get one or several e-mails containing ebook licenses and installation instructions from publishers](doc/E_send_licenses.md)
