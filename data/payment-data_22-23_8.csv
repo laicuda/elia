@@ -1,0 +1,4 @@
+"Auftragskonto";"Buchungstag";"Valutadatum";"Buchungstext";"Verwendungszweck";"Glaeubiger ID";"Mandatsreferenz";"Kundenreferenz (End-to-End)";"Sammlerreferenz";"Lastschrift Ursprungsbetrag";"Auslagenersatz Ruecklastschrift";"Beguenstigter/Zahlungspflichtiger";"Kontonummer/IBAN";"BIC (SWIFT-Code)";"Betrag";"Waehrung";"Info"
+"DE12345678901234567890";"30.09.22";"30.09.22";"GUTSCHR. UEBERWEISUNG";"EBook/2223/8/1 ";;;;;;;"Delphi Phantasie";"DE12345678901234567890";"XXXXXXXXXX";"8,00";"EUR";"Umsatz gebucht"
+"DE12345678901234567890";"30.09.22";"30.09.22";"ECHTZEIT-GUTSCHRIFT";"EBOOK/2223/8/2 Basic Traum";;;;;;;"Eiffel Traum";"DE12345678901234567890";"XXXXXXXXXX";"6,00";"EUR";"Umsatz gebucht"
+"DE12345678901234567890";"31.08.22";"01.09.22";"ENTGELTABSCHLUSS";"Entgeltabrechnung siehe Anlage ";;;;;;;;"0000000000";"XXXXXXXXXX";"-0,80";"EUR";"Umsatz gebucht"

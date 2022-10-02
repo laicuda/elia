@@ -1,0 +1,32 @@
+{
+    "Athene": {
+        "Installation": [
+            "E-Book Lizenzen von Athene können wie folgt genutzt werden:",
+            "1. Tu dies.",
+            "2. Mach jenes."
+        ],
+        "Dateien": [
+            "../data/athene_1.pdf",
+            "../data/athene_2.pdf"
+        ]
+    },
+    "Hera": {
+        "Installation": [
+            "Für Hera Lizenzen gibt es auch eine Anleitung.",
+            "Allerdings sind dies nur Beispieldaten, so dass hier nichts sinnvolles steht."
+        ],
+        "Dateien": []
+    },
+    "Zeus": {
+        "Installation": [
+            "Zeus sagt:",
+            "1. Zuerst dies.",
+            "2. Dann das...",
+            "   ... und das.",
+            "3. Schließlich dieses."
+        ],
+        "Dateien": [
+            "../data/zeus.pdf"
+        ]
+    }
+}
