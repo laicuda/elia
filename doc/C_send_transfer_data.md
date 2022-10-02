@@ -1,13 +1,13 @@
 # Parents get an e-mail with payment information
 
-The data on [available ebooks](A_provide_available_books.md) (`AVAILABLE_EBOOK_LIST_CSV` in [`../src/ebook_config.py`](../src/ebook_config.py)) and the [orders placed by the parents](B_parents_poll.md) (`ORDER_DATA_CSV` in (`../src/ebook_config.py`)[../src/ebook_config.py]) are used to automatically send e-mails with payment information. Please use (`../src/01_send_transfer_data.py`)[../src/01_send_transfer_data.py] for this.
+The data on [available ebooks](A_provide_available_books.md) (`AVAILABLE_EBOOK_LIST_CSV` in (`../src/ebook_config.py`)[../src/ebook_config.py]) and the [orders placed by the parents](B_parents_poll.md) (`ORDER_DATA_CSV` in [`../src/ebook_config.py`](../src/ebook_config.py)) are used to automatically send e-mails with payment information. Please use [`../src/01_send_transfer_data.py`](../src/01_send_transfer_data.py) for this.
 
-The e-mails contain information on the ordered ebooks, the total amount in EUR that has to be transferred as well as unique purpose of use. This purpose of use is put together by a prefix (`TRANSFER_PURPOSE_OF_USE_PREFIX` in (`../src/ebook_config.py`)[../src/ebook_config.py]) and a continous number. In the example data, the prefix is `EBOOK/2223/8/`. As there are three orders, the following purposes are generated:
+The e-mails contain information on the ordered ebooks, the total amount in EUR that has to be transferred as well as unique purpose of use. This purpose of use is put together by a prefix (`TRANSFER_PURPOSE_OF_USE_PREFIX` in [`../src/ebook_config.py`](../src/ebook_config.py)) and a continous number. In the example data, the prefix is `EBOOK/2223/8/`. As there are three orders, the following purposes are generated:
 * `EBOOK/2223/8/1`
 * `EBOOK/2223/8/2`
 * `EBOOK/2223/8/3`
 
-The text of the e-mail can be adapted in (`../src/ebook_config.py`)[../src/ebook_config.py].
+The text of the e-mail can be adapted in [`../src/ebook_config.py`](../src/ebook_config.py).
 
 *Example:*
 ```
